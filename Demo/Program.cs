@@ -136,6 +136,34 @@
             //Console.WriteLine(phonebook[222]); //long 
             #endregion
 
+            #region Class
+            // Class : Reference Type : HEAP
+
+            // Car : Id, Model, Speed
+
+            //Car C01;
+            // Declare For Reference (Pointer) From Type 'Car'
+            // C01 : Can Refer To Object From Type 'Car' Or Any Class Inherited From Car
+            // C01 : Refer to Null
+
+            //Console.WriteLine(C01);
+
+            // 8 Bytes Will Be Allocated At STACK For The Reference 'C01'
+            // 0 Bytes Will Be Allocated At HEAP
+
+            //C01 = new Car(1, 200, "XYZ");
+            // 1. Allocate The Number Of Required Bytes At HEAP For The Object
+            // 2. Initailized The Allocated Bytes With The Default Value Of The Datatypes
+            // 3. Call User-Defined Constructor if Exists
+            // 4. Assign the Object To The Reference
+
+            //Console.WriteLine(C01.Id);
+            //Console.WriteLine(C01.Model);
+            //Console.WriteLine(C01.Speed);
+
+            //Console.WriteLine(C01); 
+            #endregion
+
 
 
         }
