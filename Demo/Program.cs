@@ -109,7 +109,32 @@
             //Console.WriteLine(E01.Address);
             #endregion
 
+            #region Indexer
+            // Indexer: Special Property
+            //          1. Named this
 
+            // Phonebook : 
+
+            //Phonebook phonebook = new Phonebook(3);
+
+            //phonebook.AddPerson("Edward", 222, 0);
+            //phonebook.AddPerson("Ali", 111, 1);
+            //phonebook.AddPerson("Omar", 333, 2);
+
+            //Console.WriteLine(phonebook.GetNumber("Ahmed"));
+
+            //phonebook.UpdateNumber("Edward", 999);
+
+            //Console.WriteLine(phonebook.GetNumber("Edward"));
+
+            //Console.WriteLine(phonebook["Edward"]); //long
+
+            //phonebook["Edward"] = 999; //long
+
+            //Console.WriteLine(phonebook["Edward"]); //long
+
+            //Console.WriteLine(phonebook[222]); //long 
+            #endregion
 
 
 
