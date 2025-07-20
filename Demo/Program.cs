@@ -93,6 +93,20 @@
             //Console.WriteLine(E01.GetId());
             //Console.WriteLine(E01.GetName());
             //Console.WriteLine(E01.GetSalary()); 
+
+
+            //Employee E01 = new Employee();
+
+            //E01.Id = 12;
+            //E01.Name = "Edward";
+            //E01.Salary = -12000;
+            //E01.Address = "Cairo";
+
+
+            //Console.WriteLine(E01.Id);
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);
+            //Console.WriteLine(E01.Address);
             #endregion
 
 
