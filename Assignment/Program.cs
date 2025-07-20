@@ -2,13 +2,21 @@
 {
     internal class Program
     {
-        static double GetDistance(Point p1, Point p2)
+        static void GetOldest(params Person[] p1)
         {
-            return Math.Sqrt(
-                            Math.Pow(p1.X - p2.X, 2) +
-                            Math.Pow(p1.Y - p2.Y, 2)
-                            );
+            string Name = "";
+            int Age = 0;
+            foreach (Person p in p1)
+            {
+                if (p.Age > Age)
+                {
+                    Name = p.Name;
+                    Age = p.Age;
+                }
+            }
+            Console.WriteLine($"The Oldest Person Is {Name} With Age Of {Age}");
         }
+
         static void Main(string[] args)
         {
             // Part01
@@ -26,10 +34,21 @@
             //p2.X = 2;
             //p2.Y = 2;
 
-            //Console.WriteLine($"Distance Is : {GetDistance(p1, p2)}"); 
+            //Console.WriteLine($"Distance Is : {p1.GetDistanceFrom(p2)}");
             #endregion
 
+            #region Q02
+            /*
+               2.Create a struct called 'Person" with properties "Name" and "Age". 
+               Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+            */
 
+            //Person p1 = new Person("Ahmed", 28);
+            //Person p2 = new Person("Ali", 20);
+            //Person p3 = new Person("Esraa", 30);
+
+            //GetOldest(p1, p2, p3);
+            #endregion
         }
     }
 }
